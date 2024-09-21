@@ -67,7 +67,7 @@ void Affichierbenfice() {
         totalVentes += ventes[i].montant;
     }
     float benefice = totalVentes - charges;
-    printf("Le b�n�fice actuel est de %.2f\n", benefice);
+    printf("Le benefice actuel est de %.2f\n", benefice);
 }
 
 void Affichiercharge() {
