@@ -42,9 +42,9 @@ void Gestionentreprise() {
 
 
 void changenombreemploi() {
-    printf("Entrez le nombre d'employ�s : ");
+    printf("Entrez le nombre d'employes : ");
     scanf("%d", &nombreEmployes);
-    printf("Nombre d'employ�s mis � jour : %d\n", nombreEmployes);
+    printf("Nombre d'employes mis  jour : %d\n", nombreEmployes);
 }
 
 
@@ -57,7 +57,7 @@ void Ajoutunouvcharge() {
     printf("Entrez le montant de la nouvelle charge : ");
     scanf("%f", &nouvelleCharge);
     charges += nouvelleCharge;
-    printf("Nouvelle charge de %.2f ajout�e. Total des charges : %.2f\n", nouvelleCharge, charges);
+    printf("Nouvelle charge de %.2f ajoute. Total des charges : %.2f\n", nouvelleCharge, charges);
 }
 
 
@@ -82,7 +82,7 @@ void Affichiermoinsventreachats() {
 }
 
 void Affichierqauantiteproduitesachates() {
-    printf("Quantit� achet�e : %.2f unit�s\n", stock);
+    printf("Quantite achetee : %.2f unites\n", stock);
 }
 
 void Affichierstitionenterpise() {
@@ -104,9 +104,9 @@ void embaucherEmploye() {
 
 
 void afficherEmployes() {
-    printf("Liste des employ�s :\n");
+    printf("Liste des employes :\n");
     for (int i = 0; i < nombreEmployes; i++) {
-        printf("%d. %s, �ge : %d\n", i + 1, employes[i].nom, employes[i].age);
+        printf("%d. %s, age : %d\n", i + 1, employes[i].nom, employes[i].age);
     }
 }
 
@@ -116,9 +116,9 @@ void enregistrerVente() {
         printf("Entrez le montant de la vente : ");
         scanf("%f", &ventes[nombreVentes].montant);
         nombreVentes++;
-        printf("Vente enregistr�e.\n");
+        printf("Vente enregistree.\n");
     } else {
-        printf("Capacit� maximale de ventes atteinte.\n");
+        printf("Capacite maximale de ventes atteinte.\n");
     }
 }
 
@@ -142,13 +142,13 @@ int main() {
         printf("2. Saisir ou changer le nombre d'emplois\n");
         printf("3. Afficher le stock\n");
         printf("4. Ajouter une nouvelle charge\n");
-        printf("5. Afficher le b�n�fice\n");
+        printf("5. Afficher le benefice\n");
         printf("6. Afficher les charges\n");
         printf("7. Afficher les moins de vente et des achats\n");
-        printf("8. Afficher la quantit� produite ou achet�e selon la nature des activit�s\n");
+        printf("8. Afficher la quantite produite ou achetee selon la nature des activites\n");
         printf("9. Afficher la situation de l'entreprise\n");
-        printf("10. Embaucher un employ�\n");
-        printf("11. Afficher la liste des employ�s\n");
+        printf("10. Embaucher un employe\n");
+        printf("11. Afficher la liste des employes\n");
         printf("12. Enregistrer une vente\n");
         printf("13. Afficher les ventes\n");
         printf("14. Afficher le budget\n");
