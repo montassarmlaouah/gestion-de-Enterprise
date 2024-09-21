@@ -34,7 +34,7 @@ void Gestionentreprise() {
     scanf("%s", entreprise.nom);
     printf("Entrez l'adresse de l'entreprise : ");
     scanf("%s", entreprise.adresse);
-    printf("Entrez le secteur d'activit� : ");
+    printf("Entrez le secteur d'activite: ");
     scanf("%s", entreprise.secteurActivite);
 
     printf("Entreprise cree : %s, Adresse : %s, Secteur : %s\n", entreprise.nom, entreprise.adresse, entreprise.secteurActivite);
