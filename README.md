@@ -4,7 +4,7 @@
 #define MAX_EMPLOYES 100
 #define MAX_VENTES 100
 
-// Structures pour g�rer les informations de l'entreprise
+
 typedef struct {
     char nom[100];
     char adresse[200];
@@ -20,8 +20,7 @@ typedef struct {
     float montant;
 } Vente;
 
-// Variables globales
-Entreprise entreprise;
+
 Employe employes[MAX_EMPLOYES];
 int nombreEmployes = 0;
 Vente ventes[MAX_VENTES];
@@ -38,7 +37,7 @@ void Gestionentreprise() {
     printf("Entrez le secteur d'activit� : ");
     scanf("%s", entreprise.secteurActivite);
 
-    printf("Entreprise cr��e : %s, Adresse : %s, Secteur : %s\n", entreprise.nom, entreprise.adresse, entreprise.secteurActivite);
+    printf("Entreprise cree : %s, Adresse : %s, Secteur : %s\n", entreprise.nom, entreprise.adresse, entreprise.secteurActivite);
 }
 
 
